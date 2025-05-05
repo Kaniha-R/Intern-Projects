@@ -14,7 +14,7 @@ try:
         humidity=data['main']['humidity']
         description=data['weather'][0]['description']
         wind_speed=data['wind']['speed']
-        print(f"Temperature: {temp}C")
+        print(f"Temperature: {temp}°C")
         print(f"Humidity: {humidity}%")
         print(f"Condition: {description.title()}")
         print(f"Wind Speed: {wind_speed} m/s")
